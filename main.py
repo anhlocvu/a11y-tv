@@ -41,6 +41,18 @@ class DataManager:
                         if c.get('country') == 'VN': vn_channels.append(channel_info)
                         else: world_channels.append(channel_info)
                 
+                custom_vn_channels = [
+                    {'id': 'custom_vtv_can_tho', 'name': 'VTV Cần Thơ', 'url': 'https://live.fptplay53.net/fnxch2/vtvcantho_abr.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'VTV Cần Thơ [VN]'},
+                    {'id': 'custom_vtv1', 'name': 'VTV1', 'url': 'https://live.fptplay53.net/fnxch2/vtv1hd_abr.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'VTV1 [VN]'},
+                    {'id': 'custom_vtv5', 'name': 'VTV5', 'url': 'https://live.fptplay53.net/epzch2/vtv5hd_abr.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'VTV5 [VN]'},
+                    {'id': 'custom_vtv4', 'name': 'VTV4', 'url': 'https://live.fptplay53.net/fnxch2/vtv4hd_abr.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'VTV4 [VN]'},
+                    {'id': 'custom_gia_lai', 'name': 'Gia Lai', 'url': 'https://freem3u.xyz/api/live/play.m3u8?vid=55', 'country': 'VN', 'display_name': 'Gia Lai [VN]'},
+                    {'id': 'custom_hung_yen', 'name': 'Hưng Yên', 'url': 'https://live.fptplay53.net/fnxsd1/hungyen_2000.stream/chunklist.m3u8', 'country': 'VN', 'display_name': 'Hưng Yên [VN]'},
+                    {'id': 'custom_ninh_binh', 'name': 'Ninh Bình', 'url': 'https://live.fptplay53.net/fnxsd1/ninhbinh_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Ninh Bình [VN]'},
+                    {'id': 'custom_phu_tho', 'name': 'Phú Thọ', 'url': 'https://live.fptplay53.net/fnxsd1/phutho_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Phú Thọ [VN]'}
+                ]
+                vn_channels = custom_vn_channels + vn_channels
+                
                 self.channels = vn_channels + world_channels
                 self.filtered_channels = self.channels
                 wx.CallAfter(callback, True)
