@@ -49,7 +49,29 @@ class DataManager:
                     {'id': 'custom_gia_lai', 'name': 'Gia Lai', 'url': 'https://freem3u.xyz/api/live/play.m3u8?vid=55', 'country': 'VN', 'display_name': 'Gia Lai [VN]'},
                     {'id': 'custom_hung_yen', 'name': 'Hưng Yên', 'url': 'https://live.fptplay53.net/fnxsd1/hungyen_2000.stream/chunklist.m3u8', 'country': 'VN', 'display_name': 'Hưng Yên [VN]'},
                     {'id': 'custom_ninh_binh', 'name': 'Ninh Bình', 'url': 'https://live.fptplay53.net/fnxsd1/ninhbinh_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Ninh Bình [VN]'},
-                    {'id': 'custom_phu_tho', 'name': 'Phú Thọ', 'url': 'https://live.fptplay53.net/fnxsd1/phutho_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Phú Thọ [VN]'}
+                    {'id': 'custom_phu_tho', 'name': 'Phú Thọ', 'url': 'https://live.fptplay53.net/fnxsd1/phutho_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Phú Thọ [VN]'},
+                    {'id': 'custom_btv9', 'name': 'BTV9', 'url': 'https://live.fptplay53.net/fnxsd1/btv9_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'BTV9 [VN]'},
+                    {'id': 'custom_hanoi_cab', 'name': 'Hà Nội Cab', 'url': 'https://freem3u.xyz/api/live/play.m3u8?vid=32', 'country': 'VN', 'display_name': 'Hà Nội Cab [VN]'},
+                    {'id': 'custom_hai_phong', 'name': 'Hải Phòng', 'url': 'https://live.fptplay53.net/fnxsd1/haiphong_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Hải Phòng [VN]'},
+                    {'id': 'custom_khanh_hoa_1', 'name': 'Khánh Hòa 1', 'url': 'https://freem3u.xyz/api/live/play.m3u8?vid=76', 'country': 'VN', 'display_name': 'Khánh Hòa 1 [VN]'},
+                    {'id': 'custom_lai_chau', 'name': 'Lai Châu', 'url': 'https://live.fptplay53.net/fnxsd1/laichau_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Lai Châu [VN]'},
+                    {'id': 'custom_lam_dong_1', 'name': 'Lâm Đồng 1', 'url': 'https://live.fptplay53.net/epzsd1/lamdong_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Lâm Đồng 1 [VN]'},
+                    {'id': 'custom_lam_dong_2', 'name': 'Lâm Đồng 2', 'url': 'https://freem3u.xyz/api/live/play.m3u8?vid=45', 'country': 'VN', 'display_name': 'Lâm Đồng 2 [VN]'},
+                    {'id': 'custom_lang_son', 'name': 'Lạng Sơn', 'url': 'https://live.fptplay53.net/fnxsd1/langson_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Lạng Sơn [VN]'},
+                    {'id': 'custom_quang_ninh_1', 'name': 'Quảng Ninh 1', 'url': 'https://live.fptplay53.net/fnxsd1/quangninh1_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Quảng Ninh 1 [VN]'},
+                    {'id': 'custom_quang_ninh_3', 'name': 'Quảng Ninh 3', 'url': 'https://live.fptplay53.net/fnxsd1/quangninh3_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Quảng Ninh 3 [VN]'},
+                    {'id': 'custom_quang_tri', 'name': 'Quảng Trị', 'url': 'https://live.fptplay53.net/epzsd1/quangtri_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Quảng Trị [VN]'},
+                    {'id': 'custom_son_la', 'name': 'Sơn La', 'url': 'https://live.fptplay53.net/fnxsd1/sonla_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Sơn La [VN]'},
+                    {'id': 'custom_thanh_hoa', 'name': 'Thanh Hóa', 'url': 'https://live.fptplay53.net/fnxsd1/thanhhoa_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Thanh Hóa [VN]'},
+                    {'id': 'custom_tuyen_quang', 'name': 'Tuyên Quang', 'url': 'https://live.fptplay53.net/fnxsd1/tuyenquang_hls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Tuyên Quang [VN]'},
+                    {'id': 'custom_tay_ninh_1', 'name': 'Tây Ninh 1', 'url': 'https://freem3u.xyz/api/live/play.m3u8?vid=72', 'country': 'VN', 'display_name': 'Tây Ninh 1 [VN]'},
+                    {'id': 'custom_tay_ninh_2', 'name': 'Tây Ninh 2', 'url': 'https://liveh34.vtvprime.vn/hls/TAYNINHTV/03.m3u8', 'country': 'VN', 'display_name': 'Tây Ninh 2 [VN]'},
+                    {'id': 'custom_vinh_long_2', 'name': 'Vĩnh Long 2', 'url': 'https://live.fptplay53.net/epzhd2/vinhlong2_vhls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Vĩnh Long 2 [VN]'},
+                    {'id': 'custom_vinh_long_3', 'name': 'Vĩnh Long 3', 'url': 'https://live.fptplay53.net/epzhd2/vinhlong3_vhls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Vĩnh Long 3 [VN]'},
+                    {'id': 'custom_vinh_long_4', 'name': 'Vĩnh Long 4', 'url': 'https://live.fptplay53.net/epzhd2/vinhlong4hd_vhls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Vĩnh Long 4 [VN]'},
+                    {'id': 'custom_vinh_long_5', 'name': 'Vĩnh Long 5', 'url': 'https://freem3u.xyz/api/live/play.m3u8?vid=91', 'country': 'VN', 'display_name': 'Vĩnh Long 5 [VN]'},
+                    {'id': 'custom_dong_thap_2', 'name': 'Đồng Tháp 2', 'url': 'https://live.fptplay53.net/epzsd1/dongthaphd_vhls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'Đồng Tháp 2 [VN]'},
+                    {'id': 'custom_htv2', 'name': 'HTV2', 'url': 'https://live.fptplay53.net/epzhd1/htv2hd_vhls.smil/chunklist.m3u8', 'country': 'VN', 'display_name': 'HTV2 [VN]'}
                 ]
                 vn_channels = custom_vn_channels + vn_channels
                 
